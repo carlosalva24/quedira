@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Que dice</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+        <header>        
+                <h1 class="titulo-principal">A ver que dice</h1>      
+        </header>
+                <div class="encriptarin">   
+                        <textarea type="text"  id="copiinArea"class="textoencriptar" cols="40"  rows="6" placeholder="ingrese texto aqui">
+			</textarea>
+                </div>   
+                <div class="btnenc"> 
+                         <button type="button" onclick="btnencriptar()">Encriptar </button>     
+                </div>
+                <div class="encriptarout">   
+                        <textarea type="text"  id="copioutArea" class="respuestaencriptar" cols="40"  rows="6"  placeholder="Respuesta">
+			</textarea>        
+                </div>
+                <div class="btncoppeg"> 
+                        <button type="button" onclick="btncopiar()">Copiar </button> 
+                        <button type="button" onclick="btnpegar()">Pegar </button> 
+                </div>
+                <div class="desencriptarin">
+                        <textarea type="text"  id="pegainArea" class="textodesencriptar" cols="40"  rows="6"  placeholder="ingrese texto aqui">
+                        </textarea>
+                </div>  
+                <div class="btndesec">
+                        <button type="button" onclick="btndesencriptar()">Desencriptar </button>
+                </div>     
+                <div class="desencriptarout">                     
+                        <textarea type="text"  id="pegaoutArea" class="respuestadesencriptar"  cols="40"  rows="6"  placeholder="Respuesta">
+			</textarea>
+                </div>
+        </main>
+        <footer>
+              <p >&copy Copyright Que dice 2022</p>
+            
+        </footer>
+	<script src="js/script.js"></script>
+    </body>
+
+
